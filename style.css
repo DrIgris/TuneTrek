@@ -18,7 +18,7 @@ html {
 	color: grey;
 	text-decoration: none;
 	position: absolute;
-	top: 58em;
+	top: 55em;
 }
 
 .fields {
@@ -35,13 +35,18 @@ html {
 
 
 #destination-title {
-	margin-top: 0.5em;
+	margin-top: 15%;
 	margin-bottom: 0.3em;
-	color: #E97451;
+	color: #4D5250;
+}
+
+#playlist-title {
+	color: #444C55;
+	margin-bottom: 0.3em;
 }
 
 input {
-	background-color: #A1C8E1;
+	background-color: #8C9699;
 	opacity: 60%;
 	text-align: center;
 	font-family: "Nova Round";
@@ -51,14 +56,22 @@ input {
 	margin-top: 0em;
 	height: 1.8em;
 	width: 13em;
-	color: #5E7585;
-	border-color: #F27A54;
+	color: black;
 	border-style: inset;
 	margin-bottom: 2em;
 }
 
+#destination-form {
+	border-color: #4D5250;
+}
+
+#playlist-form {
+	border-color: #444C55;
+}
+
 ::placeholder {
-	color: #7A94A6;
+	color: black;
+	opacity: 50%;
 }
 input:focus, textarea {
 	outline: none !important;
@@ -81,9 +94,29 @@ input:focus, textarea {
 	text-align: center;
 }
 .calculate-button {
-	margin-top: 50%;
+	margin-top: 55%;
 	font-family: "Nova Round";
 	font-weight: 400;
-	font-size: 3.7em;
+	font-size: 2.7em;
 	text-align: center;
+	border-radius: 0.15em;
+	border-style: solid;
+	border-width: 0.07em;
+	padding: 0.2em 0.6em 0.2em 0.6em;
+	color: #555d66;
+	border-color: #4D5250;
+	background-color: rgba(140, 150, 153, 0.6);
+}
+.calculate-button:hover {
+	border-style: inset;
+	background-color: rgba(140, 150, 153, 0.8);
+}
+
+.result {
+	margin: 0.3em;
+	color: #4D5250;
+}
+.stats {
+	color: #444C55;
+	margin: 0.5em;
 }

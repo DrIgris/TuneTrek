@@ -16,25 +16,23 @@
       <div class="fields"> 
         <p id="destination-title">Enter Destination</p>
         <form action="/url" method="GET">
-          <input type="text" placeholder="Destination">
+          <input id="destination-form" type="text" placeholder="Destination">
         </form>
-        <p id="playlist  -title">Enter Playlist</p>
-        <form action="/url" method="GET">
-          <input type="text" placeholder="playlist URL">
+        <p id="playlist-title">Enter Playlist</p>
+        <form  action="/url" method="GET">
+          <input id="playlist-form" type="text" placeholder="Playlist URL">
         </form>
       </div>
       <div class="buttons">
         <button class="calculate-button" type="button" onclick="nextPage()">Calculate</button>
       </div>
       <div class="calculate"> 
-        <p id="destination-title">Enter Destination</p>
-        <form action="/url" method="GET">
-          <input type="text" placeholder="Destination">
-        </form>
-        <p id="playlist  -title">Enter Playlist</p>
-        <form action="/url" method="GET">
-          <input type="text" placeholder="playlist URL">
-        </form>
+        <p class="stats"># of Songs:</p>
+        <p class="result" id="song">--</p>
+        <p class="stats">Total Time:</p>
+        <p class="result" id="time">--</p>
+        <p class="stats">Total Distance:</p>
+        <p class="result" id="distance">--</p>
       </div>
     </div>
    
