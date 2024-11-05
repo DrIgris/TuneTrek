@@ -1,0 +1,89 @@
+#title {
+	font-size: 11em;
+	text-align: center;
+	margin: 0em;
+	font-family: "Righteous";
+	font-style: normal;
+	font-weight: 400;
+	color: #C25A5a;
+}
+html {
+	background-image: url('desert2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#credit {
+	color: grey;
+	text-decoration: none;
+	position: absolute;
+	top: 58em;
+}
+
+.fields {
+	text-align: center;
+	font-family: "Nova Round";
+	font-weight: 400;
+	font-size: 3.7em;
+	width: 30%;
+	display: inline-block;
+	float: left;
+	margin-left: 1.3em;
+}
+
+
+
+#destination-title {
+	margin-top: 0.5em;
+	margin-bottom: 0.3em;
+	color: #E97451;
+}
+
+input {
+	background-color: #A1C8E1;
+	opacity: 60%;
+	text-align: center;
+	font-family: "Nova Round";
+	font-weight: 400;
+	border-radius: 0.5em;
+	font-size: 0.5em;
+	margin-top: 0em;
+	height: 1.8em;
+	width: 13em;
+	color: #5E7585;
+	border-color: #F27A54;
+	border-style: inset;
+	margin-bottom: 2em;
+}
+
+::placeholder {
+	color: #7A94A6;
+}
+input:focus, textarea {
+	outline: none !important;
+}
+
+.calculate {
+	float: left;
+	text-align: center;
+	font-family: "Nova Round";
+	font-weight: 400;
+	font-size: 3.7em;
+	width: 30%;
+	display: inline-block;
+}
+
+.buttons {
+	display: inline-block;
+	float: left;
+	width: 30%;
+	text-align: center;
+}
+.calculate-button {
+	margin-top: 50%;
+	font-family: "Nova Round";
+	font-weight: 400;
+	font-size: 3.7em;
+	text-align: center;
+}
