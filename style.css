@@ -5,10 +5,10 @@
 	font-family: "Righteous";
 	font-style: normal;
 	font-weight: 400;
-	color: #C25A5a;
+	color: #E76A31;
 }
 html {
-	background-image: url('desert2.jpg');
+	background-image: url('desert3.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -18,35 +18,39 @@ html {
 	color: grey;
 	text-decoration: none;
 	position: absolute;
-	top: 55em;
+	top: 54em;
 }
 
 .fields {
 	text-align: center;
-	font-family: "Nova Round";
+	font-family: "Righteous";
 	font-weight: 400;
 	font-size: 3.7em;
 	width: 30%;
 	display: inline-block;
 	float: left;
 	margin-left: 1.3em;
+	background-color: rgba(242, 137, 90, 0.5);
+	outline: solid;
+	outline-color: #E76A31;
+	border-radius: 0.5em;
 }
 
 
 
 #destination-title {
-	margin-top: 15%;
+	margin-top: 6%;
 	margin-bottom: 0.3em;
-	color: #4D5250;
+	color: #A8A29E;
 }
 
 #playlist-title {
-	color: #444C55;
+	color: #A8A29E;
 	margin-bottom: 0.3em;
 }
 
 input {
-	background-color: #8C9699;
+	background-color: #A8A29E;
 	opacity: 60%;
 	text-align: center;
 	font-family: "Nova Round";
@@ -80,11 +84,15 @@ input:focus, textarea {
 .calculate {
 	float: left;
 	text-align: center;
-	font-family: "Nova Round";
+	font-family: "Righteous";
 	font-weight: 400;
 	font-size: 3.7em;
 	width: 30%;
 	display: inline-block;
+	background-color: rgba(242, 137, 90, 0.5);
+	outline: solid;
+	outline-color: #E76A31;
+	border-radius: 0.5em;
 }
 
 .buttons {
@@ -93,9 +101,9 @@ input:focus, textarea {
 	width: 30%;
 	text-align: center;
 }
-.calculate-button {
+#calculate-button {
 	margin-top: 55%;
-	font-family: "Nova Round";
+	font-family: "Righteous";
 	font-weight: 400;
 	font-size: 2.7em;
 	text-align: center;
@@ -107,16 +115,18 @@ input:focus, textarea {
 	border-color: #4D5250;
 	background-color: rgba(140, 150, 153, 0.6);
 }
-.calculate-button:hover {
+#calculate-button:hover {
 	border-style: inset;
 	background-color: rgba(140, 150, 153, 0.8);
 }
 
 .result {
 	margin: 0.3em;
-	color: #4D5250;
+	color: #A8A29E;
+	
 }
 .stats {
-	color: #444C55;
+	color: #A8A29E;
 	margin: 0.5em;
+	
 }
